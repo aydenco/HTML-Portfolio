@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio!</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Ayden's Portfolio</li>
+            <li><a href="otherpage.html">Other Page</a></li>
+            <li><a href="https://comeuntochrist.org" target="_blank">comeuntochrist.org</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px;">Ayden Overson</h1>
+            <p>Python Programmer</p>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>About Me</h1>
+                <p>Hello, my name is Ayden Overson. I am from a small town called St. Johns in northeastern 
+                    Arizona. I am 23 years old and am currently going to college to earn my bachelors degree 
+                    in business management. I am a member of the Church of Jesus Christ of Latter-Day Saints. 
+                    I love to learn and teach others new things.</p>
+            </article>
+            <article class="main-articles">
+                <h2>Work Experience</h2>
+                <p>I have learned a variety of skills thoughout my career. I have worked as a snowcone maker, 
+                a Certified Nursing Assistant, a semi-truck tire technician, and a sales associate in a few 
+                different capacities. This wide range of roles has allowed me to develop multiple skills, 
+                such as exceptional customer service, the ability to work in a team and indepentently, and 
+                the ability to think on my feet to face new challenges.</p>
+            </article>
+            <article class="main-articles" id="hobbies">
+                <h1>Interests</h1>
+                <h2>Nature</h2>
+                <img id="canyon" src="images/snakerivermorninghike.jpg">
+                <figcaption><em>The Snake River near Twin Falls, ID</em></figcaption>
+                <h2>Guns</h2>
+                <img id="cz" src="images/czp10.jpg">
+                <figcaption><em>One of my first handguns that I have improved and personalized.</em></figcaption>
+                <h2>Memes</h2>
+                <img id="waffles" src="images/thurstonwaffles.jpg">
+                <figcaption><em>RIP Legend</em></figcaption>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/candid.jpg">
+            <div id="profile-details">
+                <h2>Ayden Overson</h2>
+                <ul>
+                    <li>905 N 24th W</li>
+                    <li>St. Johns, AZ</li>
+                    <li>(928) 551-8084</li>
+                    <li><a href="mailto:ayden99@gmail.com">ayden99@gmail.com</a></li>
+                </ul>
+            </div>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please contact me with questions</small></strong>
+                <br>
+                <form action="mailto:ayden99@gmail.com" method= "POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Ayden Overson 2022 
+        </div>
+    </footer>
+
+</body>
+</html>
